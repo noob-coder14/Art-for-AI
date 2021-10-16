@@ -104,8 +104,8 @@
     z-index: -1;
 }
 .visionsec{
-    width: 1638px;
-    height: 1048px;
+    width: 80%;
+    height: 1080px;
     left: 218px;
     top: 900px;
 
@@ -134,14 +134,10 @@
 
 
 
-
-body {
-    font-family: Sans-serif;
-    font-size: 18px;
-    background:#eaeaea;
-  }
   
   .content {
+    font-size: 18px;
+    background:#eaeaea;
     width: 80%;
     padding: 0;
     margin: 0 auto;
@@ -338,32 +334,33 @@ body {
 }
 .video{
     position: relative;
-    top: 600px;
-    width: 30%;
+    top: 500px;
+    width: 40%;
     height: 360px;
-    left: 218px;
+    left: 100px;
 }
 .bgimg1{
     position: absolute;
-    width: 1920px;
-    height: 1120px;
+    width: 100%;
+    height: h-screen;
     left: 0px;
     top: 2595px;
     z-index: -1;
 }
 .visionsec{
-    width: 1638px;
-    height: 1048px;
+    width: 80%;
+    height: 100vh;
     left: 218px;
-    top: 900px;
+    top: 600px;
+    z-index: 20;
 
 }
 .vision{
     position: absolute;
-    width: 90%;
+    width: 80%;
     height: 82%;
     left: 0px;
-    margin-top: 150px;
+    margin-top: 0px;
 }
 .vishead{
     position: absolute;
@@ -381,14 +378,6 @@ body {
 }
 
 
-
-
-body {
-    font-family: Sans-serif;
-    font-size: 18px;
-    background:#eaeaea;
-  }
-  
   .content {
     width: 80%;
     padding: 0;
