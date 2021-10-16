@@ -13,8 +13,8 @@
 </head>
 
 <body>
-    <section class="home">
-        <nav class="flex gap-x-32 w-4/6 mx-auto justify-between">
+    <section class="home relative top-0">
+        <nav class="flex gap-x-32 w-4/6 mx-auto top-0 justify-between">
             <img src="assets/logo-removebg-preview 1.png" class="nav_logo cursor-pointer"/>
             <ul class="navlist flex 2xl:gap-x-10 gap-x-6 w-2/3 pt-12 z-10">
                 <li class="cursor-pointer hover:text-gray-400">Home</li>
@@ -35,13 +35,15 @@
         <img src="assets/Home.png" class="homeBG h-screen w-screen"/>
     </section>
 
-    <section class="about h-screen">
-        <img src="./assets/Image Group.png" class="imgGrp"/>
-        <article class="abouttext">
-            <h2 class="sechead mb-12">Project - Art.ificial Verse 1</h2>     
-            <p class="mb-10 paratxt">We have a limited collection of 999 artwork which is the result of human-AI collaboration. </p>
-            <p class="paratxt">Human input, a neural generative model (AI), and a procedural generative approach have come together for organic transformations called Art.ificial Verse (AiVerse).</p>
-        </article>
+    <section class="about h-screen relative">
+        <div class="flex">
+            <article class="abouttext">
+                <h2 class="sechead mb-12">Project - Art.ificial Verse 1</h2>     
+                <p class="mb-10 paratxt">We have a limited collection of 999 artwork which is the result of human-AI collaboration. </p>
+                <p class="paratxt">Human input, a neural generative model (AI), and a procedural generative approach have come together for organic transformations called Art.ificial Verse (AiVerse).</p>
+            </article>
+            <img src="./assets/Image Group.png" class="imgGrp"/>
+        </div>
     </section>
 
     <section class="techDetails h-screen relative">
@@ -61,17 +63,17 @@
         </div>
     </section>
 
-    <section>
-        <img class="bgimg1" src="./assets/back image-1.png"/>
-    </section>
 
-    <section class="visionsec relative">
+    <section class="visionsec h-screen relative">
         <h2 class="vishead mb-10">Vision</h2> 
         <img src="./assets/Vision.png" class="vision"/>
     </section>
 
+    <section>
+        <img class="bgimg1" src="./assets/back image-1.png"/>
+    </section>
 
-    <section class="FAQ">
+    <section class="FAQ relative">
         <div class="FAQhead mb-12">
             FAQ
         </div>
@@ -112,7 +114,7 @@
         </div>
     </section>
 
-    <section class="footer">
+    <section class="footer relative">
         <div class="flex w-4/6 mx-auto justify-between pt-10">
             <img src="./assets/Personas-item.png" class="foot-img"/>
             <img src="./assets/Personas-item-1.png" class="foot-img"/>
