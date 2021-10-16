@@ -248,7 +248,7 @@
 
 
 
-@media screen and (max-width: 1370px){
+@media screen and (max-width: 1500px){
   .body{
     position: relative;
     background: #FBFFFF;
@@ -284,7 +284,7 @@
 
 .afterland{
     position: relative;
-    top: 300px;
+    top: 600px;
 }
 .about{
     z-index: 11;
