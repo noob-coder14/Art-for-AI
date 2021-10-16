@@ -1,0 +1,499 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+.body{
+    position: relative;
+    background: #FBFFFF;
+}
+
+@media screen and (min-width: 1370px){
+.home{
+    position: absolute;
+    width: 1920px;
+    height: 900px;
+    margin-left: 0px;
+    margin-top: 0px;
+
+}
+.nav_logo{
+    position: relative;
+    width: 89px;
+    height: 98px;
+    margin-left: 0px;
+    margin-top: 0px;
+    z-index: 1;
+}
+.navlist{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+.homeBG{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+}
+.about{
+    position: relative;
+    left: 0px;
+    top: 900px;
+}
+.imgGrp{
+    position: absolute;
+    width: 35%;
+    height: 697px;
+    margin-left: 55%;
+    margin-top: 160px;
+}
+.abouttext{
+    position: absolute;
+    width: 33%;
+    height: 386px;
+    left: 218px;
+    top: 200px;
+}
+.sechead{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 49px;
+    color: #000000;
+}
+.paratxt{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 31px;
+    color: #000000;
+}
+
+.techDetails{
+    position: relative;
+    left: 0px;
+    top: 850px;
+}
+.techtext{
+    position: absolute;
+    width: 35%;
+    height: 386px;
+    left: 218px;
+    top: 200px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 28px;
+}
+.video{
+    position: relative;
+    top: 600px;
+    width: 30%;
+    height: 360px;
+    left: 218px;
+}
+.bgimg1{
+    position: absolute;
+    width: 1920px;
+    height: 1120px;
+    left: 0px;
+    top: 2595px;
+    z-index: -1;
+}
+.visionsec{
+    width: 1638px;
+    height: 1048px;
+    left: 218px;
+    top: 900px;
+
+}
+.vision{
+    position: absolute;
+    width: 90%;
+    height: 82%;
+    left: 0px;
+    margin-top: 150px;
+}
+.vishead{
+    position: absolute;
+    width: 122px;
+    height: 51px;
+    margin-left: 80px;
+    margin-top: 250px;
+    z-index:2;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 49px;
+}
+
+
+
+
+body {
+    font-family: Sans-serif;
+    font-size: 18px;
+    background:#eaeaea;
+  }
+  
+  .content {
+    width: 80%;
+    padding: 0;
+    margin: 0 auto;
+  }
+  
+  .centerplease {
+    margin: 0 auto;
+    max-width: 270px;
+    font-size: 40px;
+  }
+  
+  /*Question*/
+  .question {
+    position: relative;
+    background: #f9f9f9;
+    margin: 0;
+    padding: 20px 20px 20px 70px;
+    display: block;
+    width:100%;
+    cursor: pointer;
+  }
+  /*Answer*/
+  .answers {
+    padding: 0px 15px;
+    margin: 5px 0;
+    width:100%!important;
+    height: 0;
+    overflow: hidden;
+    z-index: -1;
+    position: relative;
+    opacity: 0;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    transition: .3s ease;
+  }
+  
+  .questions:checked ~ .answers{
+    height: auto;
+    opacity: 1;
+    padding: 15px;
+    
+  }
+  
+  /*FAQ Toggle*/
+  .plus {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    z-index: 5;
+    font-size: 2em;
+    line-height: 100%;
+    -webkit-user-select: none;    
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    transition: .3s ease;
+  
+  }
+  
+  .questions:checked ~ .plus {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  
+  }
+  
+  .questions {
+    display: none;
+    
+  } 
+  
+  .FAQ{
+    position: relative;
+    width: 80%;
+    height: 600px;
+    left: 141px;
+    top: 950px;
+  }
+  .FAQhead{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 49px;
+    color: #000000;
+    margin-left: 100px;
+  }
+
+  .footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    left: 0px;
+    top: 900px;
+    background: #1E302D;
+  }
+  .foot-img{
+    
+  }
+}
+
+
+
+
+@media screen and (max-width: 1370px){
+  .home{
+    position: absolute;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.nav_logo{
+    position: relative;
+    width: 70px;
+    height: 82px;
+    margin-left: 0px;
+    margin-top: 0px;
+    z-index: 1;
+}
+.navlist{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+
+}
+.homeBG{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+}
+.about{
+    position: relative;
+    left: 0px;
+    top: 900px;
+}
+.imgGrp{
+    position: absolute;
+    width: 35%;
+    height: 60%;
+    margin-left: 55%;
+    margin-top: 100px;
+}
+.abouttext{
+    position: absolute;
+    width: 33%;
+    height: 386px;
+    left: 100px;
+    top: 130px;
+}
+.sechead{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 49px;
+    color: #000000;
+}
+.paratxt{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.techDetails{
+    position: relative;
+    left: 0px;
+    top: 580px;
+}
+.techtext{
+    position: absolute;
+    width: 35%;
+    height: 386px;
+    left: 100px;
+    top: 100px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+}
+.video{
+    position: relative;
+    top: 600px;
+    width: 30%;
+    height: 360px;
+    left: 218px;
+}
+.bgimg1{
+    position: absolute;
+    width: 1920px;
+    height: 1120px;
+    left: 0px;
+    top: 2595px;
+    z-index: -1;
+}
+.visionsec{
+    width: 1638px;
+    height: 1048px;
+    left: 218px;
+    top: 900px;
+
+}
+.vision{
+    position: absolute;
+    width: 90%;
+    height: 82%;
+    left: 0px;
+    margin-top: 150px;
+}
+.vishead{
+    position: absolute;
+    width: 122px;
+    height: 51px;
+    margin-left: 80px;
+    margin-top: 250px;
+    z-index:2;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 49px;
+}
+
+
+
+
+body {
+    font-family: Sans-serif;
+    font-size: 18px;
+    background:#eaeaea;
+  }
+  
+  .content {
+    width: 80%;
+    padding: 0;
+    margin: 0 auto;
+  }
+  
+  .centerplease {
+    margin: 0 auto;
+    max-width: 270px;
+    font-size: 40px;
+  }
+  
+  /*Question*/
+  .question {
+    position: relative;
+    background: #f9f9f9;
+    margin: 0;
+    padding: 20px 20px 20px 70px;
+    display: block;
+    width:100%;
+    cursor: pointer;
+  }
+  /*Answer*/
+  .answers {
+    padding: 0px 15px;
+    margin: 5px 0;
+    width:100%!important;
+    height: 0;
+    overflow: hidden;
+    z-index: -1;
+    position: relative;
+    opacity: 0;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    transition: .3s ease;
+  }
+  
+  .questions:checked ~ .answers{
+    height: auto;
+    opacity: 1;
+    padding: 15px;
+    
+  }
+  
+  /*FAQ Toggle*/
+  .plus {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    z-index: 5;
+    font-size: 2em;
+    line-height: 100%;
+    -webkit-user-select: none;    
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    transition: .3s ease;
+  
+  }
+  
+  .questions:checked ~ .plus {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  
+  }
+  
+  .questions {
+    display: none;
+    
+  } 
+  
+  .FAQ{
+    position: relative;
+    width: 80%;
+    height: 600px;
+    left: 141px;
+    top: 950px;
+  }
+  .FAQhead{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 49px;
+    color: #000000;
+    margin-left: 100px;
+  }
+
+  .footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    left: 0px;
+    top: 900px;
+    background: #1E302D;
+  }
+  .foot-img{
+    
+  }
+}
