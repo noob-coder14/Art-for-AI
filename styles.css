@@ -281,9 +281,13 @@
     top: 0px;
     width: 100%;
 }
+
+.afterland{
+    position: relative;
+    top: 768px;
+}
 .about{
     z-index: 11;
-    top: 768px;
     left: 0px;
     margin-top: 200px;
 }
@@ -294,6 +298,7 @@
     margin-left: 55%;
     margin-top: 0px;
 }
+
 .abouttext{
     width:40%;
     position: relative;
@@ -458,9 +463,9 @@
   
   .FAQ{
     width: 80%;
-    height: 600px;
+    height: 400px;
     left: 100px;
-    margin-top: 150px;
+    margin-top: 200px;
    
   }
   .FAQhead{
@@ -477,7 +482,7 @@
     width: 100%;
     height: 400px;
     left: 0px;
-    margin-top: 150px;
+    margin-top: 200px;
     background: #1E302D;
   }
   .foot-img{
